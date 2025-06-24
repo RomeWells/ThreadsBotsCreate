@@ -1,0 +1,43 @@
+{
+  "durationInFrames": 150,
+  "fps": 30,
+  "width": 1280,
+  "height": 720,
+  "layers": [
+    {
+      "id": "img-1-abc123",
+      "name": "image1",
+      "type": "image",
+      "src": "https://remotion.dev/img/logo.png",
+      "start": 0,
+      "end": 150,
+      "track": 0,
+      "x": 100,
+      "y": 100,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "vid-1-def456",
+      "name": "video1",
+      "type": "video",
+      "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "start": 30,
+      "end": 120,
+      "track": 1,
+      "x": 400,
+      "y": 200,
+      "width": 480,
+      "height": 270
+    },
+    {
+      "id": "aud-1-ghi789",
+      "name": "audio1",
+      "type": "audio",
+      "src": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "start": 0,
+      "end": 150,
+      "track": 2
+    }
+  ]
+}
